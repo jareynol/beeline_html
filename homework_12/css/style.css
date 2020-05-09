@@ -1,0 +1,503 @@
+/**********Hello!**********/
+
+body{
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/**********HEADER**********/
+
+.nav{
+    position: fixed;
+    width: 100%; 
+    background-color:rgba(0, 0, 0, .47);
+    padding: 14px 95px; 
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.header-logo{
+    width: 50px; 
+    height: 50px;
+    display: inline-block;
+}
+
+.header-logo img{
+    width: 100%; 
+    height: auto;
+}
+
+.header-icon{
+    display:inline-block;
+    width: 25px; 
+    height:25px; 
+    margin-right: 47px; 
+}
+
+.header-icon img{
+    width: 100%; 
+    height: auto; 
+    
+}
+
+.header-link{
+    color: white; 
+    text-transform: uppercase; 
+    margin-right: 110px; 
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header-link:last-child{
+    margin-right: 0;
+}
+
+.header-icon:last-child{
+    margin-right: 0;
+}
+
+/******Banner******/
+
+.banner{
+    background-color: #2B2835;
+}
+
+.wrapper{
+    position: relative; 
+    margin: 0 auto; 
+    max-width: 1240px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+   
+}
+
+.banner-picture{
+    position: absolute; 
+    top: 0;
+    left: -110px; 
+}
+
+.info{
+
+    padding: 210px 0 180px; 
+    width: 100%;
+    max-width: 510px; 
+}
+
+.subTitle{
+    font-size: 16px;
+    color: white;
+}
+
+.title, .price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 43px;
+  
+
+    color: #FFFFFF;
+}
+
+.action-box{
+    display: flex; 
+    margin-top: 50px; 
+    margin-bottom: 10px; 
+}
+
+.buy-button{
+     
+    border-radius: 20px; 
+    border: none;
+    outline: none; 
+    cursor: pointer;
+    
+    font-size: 14px;
+    color: #000;
+    background-color: #FFC700;
+    padding: 12px 50px;
+    margin-left: 50px; 
+    text-transform: uppercase;
+}
+
+.extra-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+  
+
+    color: #FFC700;
+
+}
+/**********FEATURES**********/
+
+.wrapper-1{
+    position: relative;
+    margin: 0 auto; 
+    max-width: 1240px; 
+    top:240px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+   
+}
+
+.features-picture{
+   align-self: flex-end;
+   position: absolute;
+   top: -250px; 
+   left: 631px;
+
+}
+.feautures-subTitle, 
+.feautures-color{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2835;
+    margin: 100px 0px;  
+}
+
+.features-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2B2835;
+    line-height: 55px;
+}
+
+.features_another-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    color: #2B2835;
+}
+
+.choose-color{
+    display: flex;
+    margin: 20px 0px; 
+} 
+
+.choose-border{
+    background-color: white; 
+    width: 31px; 
+    height: 31px; 
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: -3px 5px -3px 0px; 
+}
+
+.choose-color__white{
+    background-color: white; 
+    width: 25px; 
+    height: 25px; 
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: -34px; 
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+}
+
+.choose-color__red{
+    background-color:#DD5656; 
+    width: 25px; 
+    height: 25px; 
+    border-radius: 100%;
+    margin-right: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+}
+
+.choose-color__black{
+    background-color: black; 
+    width: 25px; 
+    height: 25px; 
+    border-radius: 100%;
+    margin-right: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+}
+
+.features_action-box{
+    display: flex;
+}
+
+.features-price{
+    font-size: 40px;
+    color: #2B2835;
+    margin-right: 30px; 
+}
+
+.buy-button__black{
+    background-color: black;
+    color: white;
+
+}
+
+.feauteres_extra-text{
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.52;
+
+    margin-top: 20px; 
+}
+
+.carousel{
+   display: flex;
+    margin-top: 370px; 
+    margin-left: 480px; 
+}
+
+.first-dot{
+    width: 11px; 
+    height: 11px; 
+    border-radius: 100%;
+    background-color: black;
+    margin-right: 20px; 
+}
+
+.second-dot{
+    width: 11px; 
+    height: 11px; 
+    border-radius: 100%;
+    background-color: #D1D1D1;
+    margin-right: 20px; 
+}
+
+.third-dot{
+    width: 11px; 
+    height: 11px; 
+    border-radius: 100%;
+    background-color: #D1D1D1;
+}
+
+
+/***three-small-headphones***/
+
+
+.wrapper-2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 400px; 
+    margin-bottom: 100px; 
+}
+
+.first-box{
+    width: 410px; 
+    height: 570px;
+    background: #F8F8F9;
+    margin-left: 90px; 
+}
+
+.first-headphones_picture{
+    margin: 40px 60px 40px 110px; 
+}
+
+.title-beats{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+
+    color: #2B2835;
+
+    margin: -250px 154px 173px 70px; 
+}
+
+.description_first-box{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+
+    color: #030303;
+    margin: -170px 60px 173px 75px;
+}
+
+.price-button{
+    display: flex;
+    
+    margin-top: -130px;
+    margin-left: 75px; 
+}
+
+.price__gold{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #9D8220;
+    
+    margin-top: 8pwdpx; 
+}
+
+
+
+
+.title-beats_buy-button__black{ 
+    margin-left: 30px;  
+   
+}
+
+.second-box{
+    width: 410px; 
+    height: 570px;
+    background: #F8F8F9;
+    margin-left: 50px; 
+
+}
+
+.second-headphones_picture{
+    margin: 10px 10px 128px 70px; 
+}
+
+.description_second-box{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+
+    color: #030303;
+    margin: -170px 60px 173px 75px;
+}
+
+.title-beats_second{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+    
+
+    color: #2B2835;
+
+    margin: -250px 154px 173px 70px; 
+}
+
+.third-box{
+    width: 410px; 
+    height: 570px;
+    background: #F8F8F9;
+    margin-left: 50px; 
+}
+
+.third-hearphones_picture{
+    margin: 100px 40px 36px 125px; 
+}
+
+.description_third-box{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    
+
+    color: #030303;
+    margin: -180px 60px 173px 75px;
+}
+
+
+/**********FOOTER**********/
+
+
+
+.footer{
+    background-color: #2B2835;
+   
+}
+
+.footer-first{
+    padding-top: 20px;
+    
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.footer-logo{
+    padding-bottom: 120px;
+}
+
+.footer-title{
+    color: white;
+    margin-right: -50px; 
+}
+
+.footer li{
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 14px; 
+    mix-blend-mode: normal;
+    opacity: 0.31;
+
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-items{
+    margin-left: 80px; 
+    text-align: left; 
+    
+}
+
+.secondary-footer{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.secondary-footer p{
+
+    text-align: center; 
+    color: #FFFFFF;
+    font-size: 12px; 
+    mix-blend-mode: normal;
+    opacity: 0.31;
+    
+}
+
+.products-list{
+    width: 159px; 
+    margin-left: -40px;
+}
+
+.support-list{
+    width: 229px;
+    margin-left: -40px;
+    margin-top: -2px; 
+}
+
+.company-list{
+    width: 159px; 
+    margin-left: -40px;
+}
+
+/**********THE_END**********/
