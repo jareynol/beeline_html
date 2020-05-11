@@ -28,8 +28,7 @@ body{
     margin-left: 40px; 
     margin-top: 29px; 
     background: #D8D8D8;
-     
-     
+    
     
 }
 
@@ -93,6 +92,7 @@ body{
     color: black;
     margin-top: 29px;
     margin-left: 130px; 
+    cursor: pointer;
     
 }
 
@@ -106,13 +106,14 @@ body{
 .first_article-header{
     height: 667px;
     background-color: white; 
+   
     
 }
 
 .some-grey-block{
     display: flex;
     flex-direction: row; 
-    justify-content: center;
+    justify-content: space-between;
     
     
 }
@@ -137,7 +138,7 @@ body{
 
 .param-3{
     position: absolute;
-    margin-left: 42px;
+    margin-left: 42px; 
 }
 
 .second-grey-block{
@@ -182,15 +183,18 @@ body{
 }
 
 .first_b{
-    /* margin-left: 800px;  */
+    margin-left: 130px;
+    
 }
 
 .second_b{
-    /* margin-left: 117px; */
+    margin-left: 117px;
+    
 }
 
 .third_b{
-    /* margin-left: 118px; */
+    margin-left: 118px; 
+    margin-right: 130px;
 }
 
 .first-article_article-header{
@@ -243,6 +247,75 @@ body{
     display: flex; 
     flex-direction: column;
     background-color: white; 
+    justify-content: space-between;
+    margin-top: 80px; 
+
+}
+
+.secondary_article_first-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.secondary-article_block-1{
+    width: 588px;
+    height: 386px;
+
+    background: #D8D8D8;
+}
+
+.secondary-article_block-2{
+    width: 588px;
+    height: 386px;
+
+    background: #D8D8D8;
+}
+
+.secondary_article_second-block{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.secondary-article_block-3{
+    width: 588px;
+    height: 386px;
+
+    background: #D8D8D8;
+}
+
+.secondary_article_third-block{
+    display: flex;
+    flex-direction: row;
+}
+
+.secondary-article_button{
+    align-self: center;
+    margin-top: 80px; 
+}
+.secondary-article_text{
+    font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+text-align: right;
+
+color: #1C1E20;
+}
+
+.secondary-article_article-header{
+    height: 38px;
+
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 38px;
+
+color: #1C1E20;
+
 }
 
 .footer{
