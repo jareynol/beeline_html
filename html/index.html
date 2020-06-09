@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>shopper</title>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    </head>
+    <body>
+            <header class="header">
+                <div class="header_block"> 
+                    <span class="header_logo"><img src="../images/SHOPPER-2.png" width="168" height="22"></span>
+                    <span class="header-icon_shopper"><img src="../images/Path 2.png" width="21" height="22"></span>
+                    <input class="header_input_search" placeholder="Search for Products"/>
+                    <button class="header_button_search">Search</button>
+                    <a href="#" class="header_login login-btn">Log in</a>
+                    <a href="#" class="header_sign-up login-btn">Sign up</a>
+                    <a href="#" class="icon-btn"><img class="header-icon heart" src="../images/shortlist icon.png" width="20" height="18"></a>
+                    <a href="#" class="icon-btn"><img class="header-icon" src="../images/Cart icon.png" width="26" height="22"></a>
+                </div>
+                <nav class="catalog">
+                    <ul class="catalog_list">
+                        <li class="catalog_item"><a class="catalog_link" href="#">Home Decor</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Furniture</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Lightning</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Home Accents</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Rugs</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Outdoors</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Holidays</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Gifts</a></li>
+                        <li class="catalog_item"><a class="catalog_link" href="#">Events</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="seller-app">
+                <h1 class="seller-app_header">Seller Application</h1>
+                    <nav class="seller-app_company-nav company-nav">
+                        <ul class="company-nav_list">
+                            <li class="company-nav_item"><a class="company-nav_link" href="#">Application Critaria</a></li>
+                            <li class="company-nav_item"><a class="company-nav_link" href="#">Company Profile</a></li>
+                            <li class="company-nav_item"><a class="company-nav_link" href="#">Web & Social Media</a></li>
+                            <li class="company-nav_item"><a class="company-nav_link" href="#">Contact Info</a></li>
+                            <li class="company-nav_item"><a class="company-nav_link" href="#">Confirm Account</a></li>
+                        </ul>
+                    </nav>
+                <form action="" class="seller-app_form" method="GET">
+                
+                    <div class="seller-app_name-group fio">
+                      
+                        <p class="fio-name">Name</p>
+                            <input type="text" class="fio_male" placeholder="Mr."/>
+                            <input type="text" class="fio_first-name" placeholder="First Name"/>
+                            <input type="text" class="fio_middle-name" placeholder="Middle Name"/>
+                            <input type="text" class="fio_last-name" placeholder="Last Name"/>
+                    </div>
+                    <div class="seller-app_profession title">
+                        <p class="title-name">Title</p>
+                        <input type="text" class="title_profession" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser"/>
+                    </div>
+                    <div class="seller-app_address address">
+                        <p class="address-name">Business mailing address</p>
+                            <div class="first-row">
+                                <label class="address_street-label first_title-line" for="street">Street Address</label>
+                                <input type="text" id="street" class="address_street first-row_input"/>
+                                <label class="address_suite-label first_title-line" for="suite">Apt/ Suite/ Other</label>
+                                <input type="text" id="suite" class="address_suite first-row_input"/>
+                                <label class="address_city-label first_title-line" for="city">City</label>
+                                <input type="text" id="city" class="address_city first-row_input"/>
+                            </div>
+                            <div class="second-row">
+                                <label class="address_zip-label second_title-line" for="zip">Zip/ Postal Code</label>
+                                <input type="text" id="zip" class="address_zip second-row_input"/>
+                                <label class="address_country-label second_title-line" for="country">Country</label>
+                                <input type="text" id="country" class="address_country second-row_input" placeholder="Select Country"/>
+                                <label class="address_phone-label second_title-line" for="phone">Phone Number</label>
+                                <input type="text" id="phone" class="address_phone phone second-row_input"/>
+                                <p class="phone_description">To Validate your account please enter valid mobile Number to receive confirmation code</p>
+                            </div>
+                    </div>
+                
+            
+                    <div class="seller-app_buttons">
+                        <a href="#" class="button-go_back button-go">Go Back</a>
+                        <p class="button-go_text  button-go">By Submittimg this application, you agree to the</p>
+                        <input type="submit" value="Submit Application" class="button-go_submit button-go"/>
+                    </div>
+                <!-- </div>  undefined div -->
+                </form>
+            </main>
+            <footer class="footer">
+                <div class="container_first-footer">
+                        <div class="footer_help">
+                            <h2 class="footer_title">How We Help</h2>
+                                <ul class="footer_list">
+                                    <li><a class="footer_help_link" href="#">Retailers</a></li>
+                                    <li><a class="footer_help_link" href="#">Interiors Designers</a></li>
+                                    <li><a class="footer_help_link" href="#">Product Designers</a></li>
+                                    <li><a class="footer_help_link" href="#">Wholesalers/ Importers</a></li>
+                                    <li><a class="footer_help_link" href="#">Artisans</a></li>
+                                </ul>
+                        </div>
+                        <div class="footer_about-shop">
+                            <h2 class="footer_title">Get to Know Us</h2>
+                                <ul class="footer_list">
+                                    <li><a class="about-shop_link" href="#">About</a></li>
+                                    <li><a class="about-shop_link" href="#">Policies</a></li>
+                                    <li><a class="about-shop_link" href="#">Careers</a></li>
+                                    <li><a class="about-shop_link" href="#">Press</a></li>
+                                </ul>
+                        </div>
+                        <div class="footer_community">
+                            <h2 class="footer_title">Join the Community</h2>
+                                <ul class="footer_list">
+                                    <li><a class="footer_communite_link" href="#">Upcoming Events</a></li>
+                                    <li><a class="footer_communite_link" href="#">Become a Buyer</a></li>
+                                    <li><a class="footer_communite_link" href="#">Become a Seller</a></li>
+                                </ul>
+                        </div>
+                        <div class="footer_follow-us follow-us">
+                            <h2 class="footer_title">Follow Us</h2>
+                                <ul class="footer_list">
+                                    <li class="follow-us_facebook"><a class="follow-us_link" href="#">Facebook</a></li>
+                                    <li class="follow-us_pinterest"><a class="follow-us_link" href="#">Pinterest</a></li>
+                                    <li class="follow-us_twitter"><a class="follow-us_link" href="#">Twitter</a></li>
+                                    <li class="follow-us_instagram"><a class="follow-us_link" href="#">Instagram</a></li>
+                                </ul> 
+                        </div>
+                    </div>
+                    <div class="footer_bottom secondary-footer">
+                        <p><a class="secondary-footer_link" href ="#">Terms & Conditions</a> <a class="secondary-footer_link" href="#">Privacy</a></p>
+                    </div>
+            </footer>
+    </body>
+</html>
